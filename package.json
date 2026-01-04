@@ -1,0 +1,36 @@
+{
+  "name": "vender-twitter",
+  "version": "1.0.0",
+  "description": "twitter service ",
+  "homepage": "https://github.com/Channabasavannaa/vender-twitter#readme",
+  "bugs": {
+    "url": "https://github.com/Channabasavannaa/vender-twitter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Channabasavannaa/vender-twitter.git"
+  },
+  "license": "ISC",
+  "author": "channabasavanna",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.936.0",
+    "@aws-sdk/lib-dynamodb": "^3.936.0",
+    "@aws-sdk/util-dynamodb": "^3.936.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "needle": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/needle": "^3.3.0",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
